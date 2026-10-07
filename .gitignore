@@ -1,0 +1,16 @@
+# Ignore the local Terraform working directory
+.terraform/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore local variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Keep Terraform dependency lock file in Git
+!.terraform.lock.hcl
