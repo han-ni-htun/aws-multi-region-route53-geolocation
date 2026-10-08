@@ -17,3 +17,6 @@
 
 # Ignore macOS installer packages downloaded for local tooling.
 *.pkg
+
+# Ignore macOS Finder metadata files.
+.DS_Store
