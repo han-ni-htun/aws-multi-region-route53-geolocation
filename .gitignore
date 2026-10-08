@@ -14,3 +14,6 @@
 
 # Keep Terraform dependency lock file in Git
 !.terraform.lock.hcl
+
+# Ignore macOS installer packages downloaded for local tooling.
+*.pkg
